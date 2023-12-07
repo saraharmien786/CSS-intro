@@ -1,0 +1,38 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+}
+
+header p { /*Descendant selector*/
+    color: green;
+}
+
+header p span {
+    color: blue;
+}
+
+.highlight { /*Class Selector*/
+    background-color: yellow;
+}
+
+footer .highlight {
+    background-color: grey;
+}
+
+.box-a {
+    margin-bottom: 20px; /*Creates space between boxes*/
+    background-color: lightgray;
+    padding: 30px;
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.box-b {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}
